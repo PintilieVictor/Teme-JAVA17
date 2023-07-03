@@ -1,11 +1,2 @@
-package Tema4;
-
-abstract class TypeOfPhone {
-    protected String brandName;
-
-    public TypeOfPhone(String brandName) {
-        this.brandName = brandName;
-    }
-
-    public abstract PhoneModel createPhoneModel();
+package Tema4;public class TypeOfPhone {
 }
